@@ -45,7 +45,7 @@ public class BugReportAnalyzerMonthly {
         }
 
         // Дефиниране на обхвата от месеци - можете да промените тези стойности
-        int numberOfMonths = 20; // Променете това на 20, 30 или друго число
+        int numberOfMonths = 19;
         YearMonth startMonth = YearMonth.of(2015, 1); // Начален месец (променете по нужда)
         YearMonth endMonth = startMonth.plusMonths(numberOfMonths - 1); // Краен месец
 

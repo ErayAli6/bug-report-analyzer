@@ -46,7 +46,7 @@ public class BugReportAnalyzerWeekly {
 
         // Дефиниране на обхвата от седмици - можете да промените тези дати
         LocalDate startDate = LocalDate.of(2003, 10, 1); // Начална дата за анализа
-        int numberOfWeeks = 20; // Анализираме 20 седмици (около 5 месеца)
+        int numberOfWeeks = 19; // Анализираме 19 седмици (около 5 месеца)
         LocalDate endDate = startDate.plusWeeks(numberOfWeeks - 1).plusDays(6); // Завършваме последната седмица
 
         System.out.println("Анализираме грешки от " + startDate + " до " + endDate + " (" + numberOfWeeks + " седмици)");
